@@ -7,12 +7,12 @@ function App() {
    
 <div>
     
-<form>
-  <label className='title-label'> Insert your task here: </label>
+<form className='my-10'>
+  <label className='text-xl font-semibold'> Insert your task here: </label>
 
-  <div className='insert-elements'>
-  <input className='input-task' type="text" placeholder='Type your task' />
-  <button className='task-button'>Add task</button>
+  <div className=''>
+  <input className='input-task border border-gray-500 rounded-sm px-2 shadow-sm' type="text" placeholder='Type your task' />
+  <button className='mx-4 px-2 py-1 text-white bg-blue-400 rounded'>Add task</button>
   </div>
 
 </form>
